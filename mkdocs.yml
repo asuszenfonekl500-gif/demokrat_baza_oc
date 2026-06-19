@@ -1,0 +1,37 @@
+site_name: База знаний Demokrat
+site_description: Обучающие материалы Demokrat по amoCRM
+site_url: ""
+use_directory_urls: true
+
+theme:
+  name: material
+  language: ru
+  palette:
+    primary: deep orange
+    accent: orange
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Главная: index.md
+  - Материалы:
+    - Обучение amoCRM: amoCRM-training.md
+    - Памятка amoCRM: amoCRM-memo.md
+    - Шпаргалка сотрудника: employee-cheatsheet.md
+    - Инструкция администратора: admin-instruction.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - assets/site.css
