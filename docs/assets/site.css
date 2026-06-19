@@ -1,0 +1,18 @@
+:root {
+  --md-primary-fg-color: #ff5a1f;
+  --md-accent-fg-color: #ff8a1f;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 800;
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.72rem;
+}
+
+.md-typeset img {
+  max-height: 320px;
+  object-fit: contain;
+}
